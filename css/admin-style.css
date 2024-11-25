@@ -1,0 +1,94 @@
+/* Labels with modern typography */
+.nma-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Styling for select elements with a modern look */
+.nma-container select {
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: #333;
+  outline: none; /* Removes the default focus outline */
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Focus and hover effects for select elements */
+.nma-container select:hover,
+.nma-container select:focus {
+  border-color: #007cba;
+  box-shadow: 0 0 0 3px rgba(0, 124, 186, 0.25);
+}
+
+/* Button styling for a modern appearance */
+.nma-container .button-primary {
+  background-color: #0073aa;
+  border: none;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nma-container .button-primary:hover {
+  background-color: #005177;
+}
+
+.nma-container .button-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 115, 170, 0.5);
+}
+
+/* Styling for the menu structure list */
+#nma_menu_structure {
+  margin-top: 20px;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+  min-height: 50px;
+  color: #555;
+  border: 1px solid #ddd;
+}
+
+#nma_menu_structure li {
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  cursor: move;
+  position: relative;
+}
+
+/* Specific styles for menu items and delete buttons */
+.nma-menu-item {
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #eee;
+  border: 1px solid #ddd;
+}
+
+.nma-delete-menu-item {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: #ccc;
+  color: black;
+  padding: 0 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.5s ease;
+}
+
+.nma-delete-menu-item:hover {
+  background-color: darkred;
+  color: white;
+}
